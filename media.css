@@ -1,0 +1,59 @@
+
+
+@media (max-width:840px){
+    .links ,.right{
+        display:none;
+        display:none;
+    }
+    
+   nav{
+    gap:4px;
+   }
+
+   .menu{
+    display:flex;
+    width:20%
+   }
+   .left {
+    width:90%;
+   }
+   .company{
+    width:100%;
+   }
+
+   .menu:hover{
+    background-color:#B1A592 ;
+    
+   }
+
+   .menu:hover p{
+    color:black;
+   }
+       
+    
+}
+
+@media (max-width:840px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+    }
+}
+
+@media (max-width:640px){
+    .two{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+    .description img{
+        width: 100%;
+    }
+          
+
+}

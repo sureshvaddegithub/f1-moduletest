@@ -1,0 +1,97 @@
+
+body{
+    background-color:black;
+    padding: 20px;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin:0;
+}
+
+
+nav{
+    display: flex;
+    border:1px solid #e0d6c2;
+    height: 50px;
+    border-radius:32px;
+    flex:row nowrap;
+    padding:3px;
+    width:100%;
+}
+
+nav p{
+    color:#e0d6c2;
+    font-weight:500;
+   
+}
+
+.left{
+    display: flex;
+    flex:row nowrap;
+  
+    width:85%;
+    height:auto;
+    gap:5px;
+}
+
+.company,.right,.menu {
+   display: flex;
+   height: auto;
+   border:1px solid;
+   align-items: center;
+   justify-content: center;
+   border:1px solid #e0d6c2;
+    border-radius: 32px;
+}
+
+.company{
+    min-width: 100px;
+    background: #323025;
+    border:none;
+    width: 30%;
+    
+}
+.links div {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border:1px solid #e0d6c2;
+    border-radius: 32px;
+    
+}
+
+.links div:nth-child(1){
+    width:25%;
+}
+
+.links div:nth-child(2){
+    width:25%;
+}
+
+.links div:nth-child(3){
+    width:20%;
+}
+.links{
+    display:flex;
+    gap:5px;
+    height:auto;
+    width:60%
+}
+
+.links div:hover ,.right:hover{
+    background-color:#B1A592 ;
+    
+}
+
+.links div:hover p, .right:hover p{
+    color:black;
+}
+
+.right {
+    width:15%;
+}
+
+.menu{
+    display: none;
+}
